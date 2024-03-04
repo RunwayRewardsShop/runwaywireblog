@@ -8,16 +8,17 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/runwaywireblog",
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `The Runway Wire`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Runway Rewards Shop`,
+      summary: `a place to learn all things fashion`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Everything from Sizing, New Brands, Sustainability, Fashion Transparency and More.`,
+    siteUrl: `https://wire.runwayrewards.shop`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `RunwayRewardsShop`,
     },
   },
   plugins: [
@@ -102,7 +103,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Runway Wire RSS Feed",
           },
         ],
       },
@@ -110,8 +111,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `Gatsby`,
+        name: `Runway Wire`,
+        short_name: `RRS`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
