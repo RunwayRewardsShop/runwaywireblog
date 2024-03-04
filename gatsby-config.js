@@ -10,7 +10,7 @@
 module.exports = {
   pathPrefix: "/runwaywireblog",
   siteMetadata: {
-    title: `The Runway Wire`,
+    title: `The Runway Wire: The Blog of Runway Rewards Shop`,
     author: {
       name: `Runway Rewards Shop`,
       summary: `a place to learn all things fashion`,
@@ -18,7 +18,7 @@ module.exports = {
     description: `Everything from Sizing, New Brands, Sustainability, Fashion Transparency and More.`,
     siteUrl: `https://wire.runwayrewards.shop`,
     social: {
-      twitter: `RunwayRewardsShop`,
+      twitter: `RRewardsShop`,
     },
   },
   plugins: [
